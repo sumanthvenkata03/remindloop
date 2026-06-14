@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "RemindLoop",
+    "slug": "remindloop",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "remindloop",
+    "backgroundColor": "#14110F",
+    "splash": {
+      "backgroundColor": "#14110F",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.webnexa.remindloop",
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.webnexa.remindloop",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "plugins": [
+      ["expo-notifications", { "color": "#F5A623" }]
+    ]
+  }
+}
