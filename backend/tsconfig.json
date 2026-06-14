@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "lib": ["ES2021"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "noEmit": true,
+    "types": ["node", "aws-lambda"]
+  },
+  "include": ["bin/**/*.ts", "lib/**/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules", "cdk.out", "dist"]
+}
